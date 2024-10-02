@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-image: url('First.jpg');
+    width: 80%; /* Changed to 100% for full width */
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center;
+}
