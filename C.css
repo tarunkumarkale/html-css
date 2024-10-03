@@ -9,18 +9,29 @@
     width: 95%; /* Changed to 100% for full width */
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: 500px;
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 .head >div{
-
-    width: 30%;
-    height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
     border: 2px solid white;
-    
+flex-direction: column;
+margin-top: 10%;
 }
+
+.firstheading{
+    padding: auto;
+    color: white;
+}
+
