@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
@@ -25,7 +26,8 @@
     align-items: center;
     width: auto;
     height: auto;
-    border: 2px solid white;
+     border: 2px solid white; 
+     border-radius: 10% ;
 flex-direction: column;
 margin-top: 10%;
 }
@@ -33,5 +35,49 @@ margin-top: 10%;
 .firstheading{
     padding: auto;
     color: white;
+    font-variant-caps: unicase
 }
 
+
+@media screen and (max-width: 480px) {
+    .head >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     width: auto;
+     height: auto;
+    }
+
+    .firstheading{
+        padding: auto;
+        color: white;
+        font-size: 27px;
+    }
+
+     }
+
+     .linksection ul  {
+    display:flex;
+    flex-direction: row;
+    text-decoration-style: none;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    
+     }
+
+     ul li{
+     margin-top: -1%;
+     color: black;
+     font-weight: bold;
+     background-color: white;
+     padding: 5px;
+     }
+
+     @media screen and (max-width: 480px) {
+  ul li{
+   margin-top:1%;
+     }
+        }
+
+  /* ??????????????????????????????????????????????????????/ */
